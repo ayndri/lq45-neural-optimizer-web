@@ -100,6 +100,18 @@ export default function Home() {
         <p className="subtitle">Algoritma Genetika Terkoneksi API Python (Integer Knapsack)</p>
       </div>
 
+      <div className="glass-panel" style={{ maxWidth: '800px', margin: '0 auto 30px', textAlign: 'left', padding: '25px', borderLeft: '4px solid var(--accent-cyan)' }}>
+         <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '12px', fontSize: '1.2rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+           <span>🧠</span> Bagaimana Cara Kerja AI Ini?
+         </h3>
+         <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)', lineHeight: '1.7', margin: 0 }}>
+           <strong>Penting:</strong> Aplikasi ini <strong>BUKAN</strong> alat prediksi Analisis Teknikal (seperti pembacaan grafik, <i>Moving Average</i>, <i>Support-Resistance</i>, atau Volume Perdagangan).
+           <br/><br/>
+           Sistem ini memecahkan masalah matematika portofolio yang disebut <strong>Integer Knapsack Problem</strong> menggunakan <strong>Algoritma Genetika (Evolusioner)</strong>.
+           Layaknya probabilitas seleksi alam, AI melempar dadu untuk menguji jutaan kombinasi acak. Tujuannya hanya satu: Mencari kombinasi <strong>"Berapa Lot untuk Saham A, B, C"</strong> dari daftar LQ45 yang memberikan <strong>Return Paling Maksimal</strong> secara probabilitas statistik, namun tetap pas di dalam keranjang <strong>Modal (Budget)</strong> dan batas <strong>Toleransi Risiko</strong> Anda.
+         </p>
+      </div>
+
       <div className="glass-panel" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
         <div className="input-group" style={{ textAlign: 'left' }}>
           <label className="input-label">Modal Tersedia</label>
