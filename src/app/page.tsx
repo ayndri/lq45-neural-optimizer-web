@@ -138,7 +138,7 @@ export default function Home() {
             className="risk-slider"
           />
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '5px' }}>
-            {riskLevel === 10 ? "Alokasi Maks: 100% per emiten" : `Alokasi Maks: ${(0.10 + ((riskLevel - 1) * 0.10)) * 100}% per emiten`}
+            {riskLevel === 10 ? "Alokasi Maks: 100% per emiten" : `Alokasi Maks: ${Math.round((0.10 + ((riskLevel - 1) * 0.10)) * 100)}% per emiten`}
           </p>
         </div>
         
